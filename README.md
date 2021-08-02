@@ -1,2 +1,2 @@
-# Learning Tracker APP
+# Learning Tracker APP.
 
