@@ -40,3 +40,5 @@ class SubjectsController < ApplicationController
     @subject = Subject.find(params[:id])
   end
 end
+
+# add subjects controller
