@@ -66,3 +66,5 @@ const mapStateToProps = state => ({
 });
 
 export default connect(mapStateToProps)(Statistics);
+
+// add statistics
