@@ -47,3 +47,5 @@ Routes.propTypes = {
 
 const mapStateToProps = state => ({ isLogged: state.auth.isLogged });
 export default withRouter(connect(mapStateToProps)(Routes));
+
+// add route 
