@@ -50,3 +50,5 @@ class MeasurementsController < ApplicationController
     @measurement = @subject.measurements.find_by!(id: params[:id]) if @subject
   end
 end
+
+# add measurements controller
