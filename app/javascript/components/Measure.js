@@ -120,7 +120,7 @@ class Measure extends Component {
                 )
               }
         </div>
-        <div classNames="row circle">
+        <div className="row circle">
           <CircleSlider
             value={units}
             size={300}
@@ -177,4 +177,3 @@ const mapDispatchToProps = dispatch => ({
 
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Measure));
-

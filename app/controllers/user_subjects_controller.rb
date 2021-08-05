@@ -17,5 +17,3 @@ class UserSubjectsController < ApplicationController
     params.permit(:subject_id)
   end
 end
-
-# add subject controller

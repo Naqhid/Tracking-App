@@ -15,5 +15,3 @@ export const colors = {
 export const circles = {
 
 };
-
-// add styles

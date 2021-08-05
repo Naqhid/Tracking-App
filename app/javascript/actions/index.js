@@ -142,5 +142,3 @@ export function logout() {
     type: 'LOGOUT',
   };
 }
-
-// add basic js

@@ -30,5 +30,3 @@ Header.propTypes = {
 };
 
 export default withRouter(connect(mapStateToProps)(Header));
-
-// add header
