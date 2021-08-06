@@ -6,7 +6,7 @@ class User < ApplicationRecord
 
   before_save :downcase_email
 
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
 
   validates_presence_of :name, :password_digest
   validates :email, presence: true, length: { maximum: 255 },
