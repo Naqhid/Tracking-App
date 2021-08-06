@@ -242,3 +242,92 @@
   font-weight: bold;
   font-size: 1.5rem !important;
 }
+.measurement-right-menu {
+  display: flex;
+  align-items: center !important;
+  margin-left: auto;
+  color: $grayDark !important;
+  span:nth-child(1){
+    font-family: 'Helvetica Neue Bold' !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  span:nth-child(2){
+    margin-left: 5px;
+    color: $grayLight !important;
+    font-size: 0.7rem;
+  }
+  a {
+    margin-left: 5px;
+    color: $grayDark;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+}
+.measurements-title {
+  margin: 8px;
+  span {
+    font-family: 'Helvetica Neue Bold' !important;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: $grayLight !important;
+    margin-left: 10px;
+  }
+}
+
+.add-measure-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  a {
+    color: white;
+  }
+}
+
+.last-div {
+  padding-bottom: 11vh !important;
+}
+
+.new-measure {
+  height: 80vh;
+  select {
+    @include inputStyle;
+  }
+  .measure-date {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input {
+      @include inputStyle;
+    }
+  }
+  .circle {
+    padding:10px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@mixin button_c {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 6px;
+}
+
+.button-red {
+  @include button_c;
+  background-color: #fc2c03;
+}
+
+.button-green {
+  @include button_c;
+  background-color: $greenDark;
+}

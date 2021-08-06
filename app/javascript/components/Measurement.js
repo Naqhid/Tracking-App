@@ -50,5 +50,3 @@ Measurement.propTypes = {
     subject_id: PropTypes.number,
   }).isRequired,
 };
-
-// add measurements

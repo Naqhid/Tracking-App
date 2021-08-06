@@ -39,5 +39,3 @@ Subject.propTypes = {
   }).isRequired,
   handleClick: PropTypes.func.isRequired,
 };
-
-// add subjects
