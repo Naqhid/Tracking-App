@@ -31,7 +31,7 @@ password: '123123'
 
 This project was created with webpack=react flag from rails.
 
-1. Clone the project to your local directory
+1. Clone the project to your local directory.
 
 ```
  git clone git@github.com:Naqhid/Tracking-App.git
