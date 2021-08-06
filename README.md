@@ -34,13 +34,13 @@ This project was created with webpack=react flag from rails.
 1. Clone the project to your local directory
 
 ```
- git clone git@github.com:men32z/learning-tracker-app.git
+ git clone git@github.com:Naqhid/Tracking-App.git
 ```
 
 2. Get in to the folder app
 
 ```
-cd learning-tracker-app
+cd Tracking-App
 ```
 3. Prepare rails environment
 
