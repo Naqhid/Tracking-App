@@ -1,3 +1,5 @@
+# rubocop:disable LineLength
+
 class JsonWebToken
   # secret to encode and decode token
   HMAC_SECRET = '240064c6a110571cd83f5c68dea16964f6c9028c25a39991e4263309a7adf037177436634e5efd2cf7f9267cba0b117f41a5d84f214bf0eea6e850d926226e32'.freeze
