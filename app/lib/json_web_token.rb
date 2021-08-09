@@ -1,6 +1,3 @@
-# rubocop:disable LineLength
-puts "This line is lonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnng"
-# rubocop:enable LineLength
 
 class JsonWebToken
   # secret to encode and decode token
