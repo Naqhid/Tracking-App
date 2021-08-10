@@ -2,46 +2,48 @@
 
 // fonts
 @font-face {
-    font-family: 'Helvetica Neue Bold';
-    src: url(../assets/fonts/helvetica-neue-bold.ttf) format('truetype');
+  font-family: 'Helvetica Neue Bold';
+  src: url(../assets/fonts/helvetica-neue-bold.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Helvetica Neue Light';
-    src: url(../assets/fonts/helvetica-neue-light.otf) format('opentype');
+  font-family: 'Helvetica Neue Light';
+  src: url(../assets/fonts/helvetica-neue-light.otf) format('opentype');
 }
 
 // colors
 
-$blue: #8ED3F1;
-$blueLight: #B3E1F6;
-$blueDark: #42B5E8;
+$blue: #8ed3f1;
+$blueLight: #b3e1f6;
+$blueDark: #42b5e8;
 
-$gray: #8090A0;
-$grayLight: #8796A6;
-$grayDark: #74879B;
+$gray: #8090a0;
+$grayLight: #8796a6;
+$grayDark: #74879b;
 
-$green: #C1EFBE;
-$greenLight: #D5F4D4;
-$greenDark: #ACE9A9;
+$green: #c1efbe;
+$greenLight: #d5f4d4;
+$greenDark: #ace9a9;
 
 // mixins
 
 @mixin headline {
   font-family: 'Helvetica Neue Bold';
 }
+
 @mixin general {
   font-family: 'Helvetica Neue Light';
 }
+
 @mixin inputStyle {
-  color: #888888;
+  color: #888;
   padding-left: 15px;
   height: 45px;
   width: 80%;
   max-width: 500px;
   border-radius: 6px;
   border: solid 1px #e8e8e8;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 // resets
@@ -54,7 +56,9 @@ html,
   border: 0;
   box-sizing: border-box;
   font-size: inherit;
+
   @include general;
+
   font-weight: normal;
 }
 
@@ -62,8 +66,12 @@ b {
   font-weight: bold;
 }
 
-h1, h2, h3, h4, h5 {
-  @include headline
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @include headline;
 }
 
 // usefull classes
@@ -81,7 +89,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .bg-gray {
-  background-color: #F3F4F6;
+  background-color: #f3f4f6;
 }
 
 .container {
