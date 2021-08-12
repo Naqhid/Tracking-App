@@ -279,8 +279,12 @@
   font-size: 1.5rem !important;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> develop
+=======
+
 >>>>>>> develop
 .measurement-right-menu {
   display: flex;
@@ -288,28 +292,42 @@
   margin-left: auto;
   color: $grayDark !important;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   span:nth-child(1) {
 =======
   span:nth-child(1){
+>>>>>>> develop
+=======
+
+  span:nth-child(1) {
 >>>>>>> develop
     font-family: 'Helvetica Neue Bold' !important;
     font-weight: bold;
     font-size: 1.3rem;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   span:nth-child(2) {
 =======
   span:nth-child(2){
+>>>>>>> develop
+=======
+
+  span:nth-child(2) {
 >>>>>>> develop
     margin-left: 5px;
     color: $grayLight !important;
     font-size: 0.7rem;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> develop
+=======
+
 >>>>>>> develop
   a {
     margin-left: 5px;
@@ -319,13 +337,19 @@
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> develop
 
 .measurements-title {
   margin: 8px;
 
+<<<<<<< HEAD
 =======
 .measurements-title {
   margin: 8px;
+>>>>>>> develop
+=======
 >>>>>>> develop
   span {
     font-family: 'Helvetica Neue Bold' !important;
@@ -341,8 +365,12 @@
   right: 10px;
   bottom: 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> develop
+=======
+
 >>>>>>> develop
   a {
     color: white;
@@ -356,6 +384,7 @@
 .new-measure {
   height: 80vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   select {
     @include inputStyle;
@@ -365,6 +394,13 @@
   select {
     @include inputStyle;
   }
+>>>>>>> develop
+=======
+
+  select {
+    @include inputStyle;
+  }
+
 >>>>>>> develop
   .measure-date {
     padding-top: 10px;
@@ -373,13 +409,18 @@
     justify-content: center;
     align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> develop
+=======
+
 >>>>>>> develop
     input {
       @include inputStyle;
     }
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   .circle {
@@ -388,13 +429,22 @@
   .circle {
     padding:10px;
 >>>>>>> develop
+=======
+
+  .circle {
+    padding: 10px;
+>>>>>>> develop
     font-size: 5rem;
     display: flex;
     justify-content: center;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> develop
+=======
+
 >>>>>>> develop
   .buttons {
     display: flex;
@@ -412,8 +462,12 @@
 .button-red {
   @include button_c;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> develop
+=======
+
 >>>>>>> develop
   background-color: #fc2c03;
 }
@@ -421,10 +475,16 @@
 .button-green {
   @include button_c;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   background-color: $greenDark;
 }
 =======
+  background-color: $greenDark;
+}
+>>>>>>> develop
+=======
+
   background-color: $greenDark;
 }
 >>>>>>> develop
