@@ -89,4 +89,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- We thank microverse inc. for this learning opportunity..
+- We thank microverse inc. for this learning opportunity.
