@@ -2,13 +2,13 @@
 
 // fonts
 @font-face {
-    font-family: 'Helvetica Neue Bold';
-    src: url(../assets/fonts/helvetica-neue-bold.ttf) format('truetype');
+  font-family: 'Helvetica Neue Bold';
+  src: url(../assets/fonts/helvetica-neue-bold.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Helvetica Neue Light';
-    src: url(../assets/fonts/helvetica-neue-light.otf) format('opentype');
+  font-family: 'Helvetica Neue Light';
+  src: url(../assets/fonts/helvetica-neue-light.otf) format('opentype');
 }
 
 // colors
@@ -28,20 +28,20 @@ $greenDark: #ACE9A9;
 // mixins
 
 @mixin headline {
-  font-family: 'Helvetica Neue Bold';
+font-family: 'Helvetica Neue Bold';
 }
 @mixin general {
-  font-family: 'Helvetica Neue Light';
+font-family: 'Helvetica Neue Light';
 }
 @mixin inputStyle {
-  color: #888888;
-  padding-left: 15px;
-  height: 45px;
-  width: 80%;
-  max-width: 500px;
-  border-radius: 6px;
-  border: solid 1px #e8e8e8;
-  background-color: #ffffff;
+color: #888888;
+padding-left: 15px;
+height: 45px;
+width: 80%;
+max-width: 500px;
+border-radius: 6px;
+border: solid 1px #e8e8e8;
+background-color: #ffffff;
 }
 
 // resets
@@ -49,50 +49,56 @@ $greenDark: #ACE9A9;
 body,
 html,
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-size: inherit;
-  @include general;
-  font-weight: normal;
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+font-size: inherit;
+@include general;
+font-weight: normal;
 }
 
 b {
-  font-weight: bold;
+font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
-  @include headline
+@include headline
 }
 
 // usefull classes
 
 .bg-dark {
-  background-color: $grayLight;
+background-color: $grayLight;
+}
+
+// usefull classes
+
+.bg-dark {
+background-color: $grayLight;
 }
 
 .bg-white {
-  background-color: white;
+background-color: white;
 }
 
 .bg-blue {
-  background-color: $blueLight;
+background-color: $blueLight;
 }
 
 .bg-gray {
-  background-color: #F3F4F6;
+background-color: #F3F4F6;
 }
 
 .container {
-  background-size: 100% 100%;
-  height: 100vh;
+background-size: 100% 100%;
+height: 100vh;
 }
 
 .row {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 300px;
-  max-width: 600px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+min-width: 300px;
+max-width: 600px;
 }
