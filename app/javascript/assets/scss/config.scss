@@ -28,11 +28,11 @@ $greenDark: #ace9a9;
 // mixins
 
 @mixin headline {
-  font-family: 'Helvetica Neue Bold';
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 @mixin general {
-  font-family: 'Helvetica Neue Light';
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 @mixin inputStyle {
@@ -71,7 +71,8 @@ h2,
 h3,
 h4,
 h5 {
-  @include headline; }
+  @include headline;
+}
 
 // usefull classes
 
