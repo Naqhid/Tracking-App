@@ -11,12 +11,14 @@ AllCops:
   DisplayCopNames: true
 
 Layout/LineLength:
-  Max: 120
+  Max: 520
 Metrics/MethodLength:
   Include:
     - "app/controllers/*"
     - "app/models/*"
   Max: 20
+  Metrics/LineLength:
+  Max: 100
 Metrics/AbcSize:
   Include:
     - "app/controllers/*"
