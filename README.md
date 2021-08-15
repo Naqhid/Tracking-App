@@ -25,7 +25,7 @@ email: 'test@test.com'
 password: '123123'
 ```
 
-[Live Demo Link](https://tracking-app-naq.herokuapp.com/login)
+[Live Demo Link](https://tracking-naq.herokuapp.com/login)
 
 ## Local Install
 
